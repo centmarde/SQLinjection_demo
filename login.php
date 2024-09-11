@@ -9,10 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-
-    /* $username = mysqli_real_escape_string($conn, $_POST['username']);
-    $password = mysqli_real_escape_string($conn, $_POST['password']); */
-
     $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
     $result = $conn->query($sql);
 
