@@ -19,8 +19,7 @@ step6: run this in your terminal or type http://localhost:8000/php_login in your
 ![image](https://github.com/user-attachments/assets/a51ffe02-5fcd-44b3-8eb6-3cb491532b1c)
 ![image](https://github.com/user-attachments/assets/f904f8ff-b8a6-47fa-a575-c8501365072c)
 
-Note!
--make sure that path of your XAMP file is correct example below:
+Note!make sure that path of your XAMP file is correct example below. also make sure to run this command to launch this project $php -S localhost:8000 in your Terminal
 ![image](https://github.com/user-attachments/assets/82d8b115-c185-44d2-88ec-2e4d9a557e1e)
 
 
